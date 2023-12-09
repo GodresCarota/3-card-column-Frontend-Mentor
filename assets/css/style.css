@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --brightRrange: hsl(31, 77%, 52%);
+    --darkCyan: hsl(184, 100%, 22%);
+    --veryDarkCyan: hsl(179, 100%, 13%);
+
+    --transparentWhite: hsla(0, 0%, 100%, 0.75);
+    --veryLightGray: hsl(0, 0%, 95%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cards {
+    width: 920px;
+    height: 500px;
+    margin: 40px auto;
+    display: flex;
+    
+}
+
+.card {
+    width: 305px;
+    height: 501px;
+}
+
+.card-left {
+    background-color: var(--brightRrange);
+}
+
+.card-mid {
+    background-color: var(--darkCyan);
+}
+
+.card-right {
+    background-color: var(--veryDarkCyan);
+}
+
+.title {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--veryLightGray);
+}
+
+.paragraph {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--transparentWhite);
+    font-weight: 400;
+}
+
+.img,
+.title,
+.paragraph {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.btn {
+    margin-left: 40px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn-text {
+    padding: 10px 30px;
+    background: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.btn-left {
+    color: var(--brightRrange);
+}
+
+.btn-mid {
+    color: var(--darkCyan);
+}
+
+.btn-right {
+    color: var(--veryDarkCyan);
+}
+
+.btn-left:hover {
+    background-color: var(--brightRrange);
+}
+
+.btn-mid:hover {
+    background-color: var(--darkCyan);
+}
+
+.btn-right:hover {
+    background-color: var(--veryDarkCyan);
+}
+
+.btn-left:hover,
+.btn-mid:hover,
+.btn-right:hover{
+    color: white;
+}
